@@ -23,10 +23,10 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     width: 100%;
-    max-width: 1050px;
+    max-width: 1100px;
     margin: 0 auto;
     gap: 2rem;
-    min-width: 800px;
+    min-width: 600px;
 }
 .header-container {
     display: flex;
