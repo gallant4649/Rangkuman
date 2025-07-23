@@ -11,6 +11,10 @@
 </head>
 
 <body>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    
     <header>
         <div class="header-container">
             <div class="logo">
@@ -76,6 +80,12 @@
     <div class="copyright">
         Copyright © 2025 Telkom DPE. All Rights Reserved.
     </div>
+
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("preloader").classList.add("hidden");
+        });
+    </script>
 </body>
 
 </html>
