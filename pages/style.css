@@ -142,6 +142,7 @@ body {
 .small-cards {
   display: flex;
   gap: 20px;
+  height: fit-content;
 }
 
 .card {
