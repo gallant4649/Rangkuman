@@ -234,7 +234,8 @@ body {
 
 .box-1 {
   width: 200px;
-  height: 389px;
+  min-height: 389px;
+  height: fit-content;
   padding: 40px;
   color: #222831;
   text-align: left;
